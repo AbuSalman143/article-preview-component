@@ -1,0 +1,134 @@
+@media screen and (max-width:900px) {
+    .cntainer{
+        border-radius:30px;
+        display: flex;
+        width: 80%;
+        position: relative;
+    }
+}
+@media screen and (max-width:800px) {
+    .cntainer{
+        border-radius:30px;
+        display: flex;
+        width: 85%;
+        position: relative;
+    }
+}
+@media screen and (max-width:700px) {
+    .cntainer{
+        border-radius:30px;
+        display: flex;
+        width: 85%;
+        position: relative;
+    }
+    .articale-container h1{
+        font-size: 18px;
+        
+    }
+}
+
+@media screen and (max-width:550px) {
+    .cntainer{
+        flex-direction: column;
+        width: 85%;
+        height: 100vh;
+    }
+    .img-contaner{
+       
+        border-radius: 30px 30px 0px 0px;
+        width: 100%;
+        height: 40%;
+        
+    }
+    .img-contaner img{
+        width: 100%;
+        
+    }
+    .articale-container{
+        border-radius: 0px 0px 30px 30px;
+        width: 100%;
+        height: 70%;
+        
+    }
+    .active{
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--Very-Dark-Grayish-Blue);
+        padding: 5px 14px;
+       
+        border-radius: 0 0 10px 10px  ;
+    }
+    .profileActive{
+        display: none;
+
+    }
+
+    .popup-container{
+        
+        position: static;
+        
+        width: 80%;
+        height: 100%;
+        display: flex;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .popup-container i{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:320px) {
+   
+    .cntainer{
+       
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 98%;
+        height: 100vh;
+    }
+    .img-contaner{
+        
+        border-radius: 30px 30px 0px 0px;
+        width: 100%;
+        height: 30%;
+        
+    }
+    .img-contaner img{
+        width: 100%;
+        
+    }
+    .articale-container{
+        border-radius: 0px 0px 30px 30px;
+        width: 100%;
+        height: 50%;
+        padding: 15px;
+        
+    }
+    .articale-container h1{
+        font-size: 16px;
+       
+    }
+    .articale-container p{
+        font-size: 11px;
+        
+    }
+
+    .profile-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+    .profile-text h2{
+        font-size: 12px;
+       
+    }
+}
+
+
+
